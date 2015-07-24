@@ -1,0 +1,255 @@
+/* Advanced Positioning Exercise*/
+.container1 {
+	background: #5CADFF;
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+
+}
+.boxx {
+	background: #FF9966;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+
+.rel {
+	z-index: 1;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+.abs {
+	z-index: 2;
+	position: relative;
+	top: -50px;
+	left: 50px;
+}
+.fix {
+	z-index: 3;
+	position: relative;
+	top: -100px;
+	left: 100px;
+}
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+
+}
+.login_box {
+	display: inline-block;
+	float: right;
+	width: 33.3%;
+	border: 1px solid black;
+}
+
+.logo_box {
+	display: inline-block;
+	float: right;
+	margin: 0 21.5% 0 0;
+}
+#login a {
+	display: inline-block;
+	background: black;
+	height: 50px;
+	width: 100px;
+	margin:0 1px;
+	text-align: center;
+	padding-top: 15px;
+	border-radius: 25px;
+	color: white;
+	float: right;
+}
+
+#login form {
+	text-align: center;
+	display: block;
+}
+#login input {
+	text-align: center;
+}
+#primary_nav a {
+	text-align: center;
+	display: block;
+	clear: both;
+	background: black;
+	height: 30px;
+	width: 100px;
+	border-radius: 25px;
+	color:white;
+	margin: 2px auto 2px;
+	padding-top: 3px;
+}
+.primary_nav_normalize {
+	width:150px;
+	margin: 0 auto;
+
+}
+#most h2 {
+	text-align: center;
+}
+
+#left_home_bumper {
+	display: inline-block;
+	width: 30%;
+	height: 450px;
+	float: left;
+	margin: 0 5% 0 0;
+}
+#left_home_bumper img {
+	padding: 0;
+}
+
+div.recent iframe {
+	display: inline-block;
+	margin: 0 auto; 
+    border: 3px solid white;
+    width: 30%;
+    float:left;
+}
+#right_home_bumper {
+	display: inline-block;
+	width: 29%;
+	height: 450px;
+	float: right;
+	margin: 0 3% 0 2%;
+}
+#right_home_bumper img {
+	padding: 0;
+}
+
+#new_user_block form {
+	text-align: center;
+	display: block;
+}
+#new_user_block input {
+	text-align: center;
+}
+#Home a {
+	text-align: center;
+	display: block;
+}
+#new_user a {
+	display: block;
+	text-align: center;
+}
+#upload_element form {
+	display: block;
+	text-align: center;
+}
+
+/* 3.1 exercises because I don't know how to run tinker.io yet */
+.box {
+	background: rgba(0, 255, 204, 255);
+	width: 98%;
+	height: 350px;
+	 /* padding top, right, bottom, left- think of a clock */
+	margin: 5px;                 /* same shortcuts as padding */
+	float: left;
+	border: 2px solid white;
+	padding: 3px 0px 3px 3px;
+	box-shadow: 0 5px 5px #CE94CE;
+}
+.above {
+	background:lime;
+	padding: 10px;
+	margin: 10px;
+}
+.container {
+	background: #ccc;
+	padding: 0px;
+	margin: 0px;
+}
+.below {
+	background: yellow;
+	padding: 10px;
+	margin: 10px;
+	clear: both;
+}
+.clearfix:after{
+	content:".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+.col3 {
+		margin: 20px 20px;
+		background: white;
+		display: block;
+		width: 31.333%;
+		height: 100px;
+	}
+.video_list {
+	margin: 2px;
+	display: inline-block;
+	float: left;
+}
+.video_list_text {
+	display: inline-block;
+	float: right;
+	height: 330px;
+	width: 350px;
+	background: white;
+	color: black;
+	margin: 5px 10px 2px 1px;
+	padding: 3px;
+	border: 1px soild black;
+}
+.upload_video_list_text {
+	display: inline-block;
+	float: right;
+	height: 330px;
+	width: 350px;
+	color: black;
+	margin: 5px 10px 2px 1px;
+	padding: 3px;
+	border: 1px soild black;
+}
+.upload_video_list_text textarea {
+	height: 200px;
+	width: 200px;
+	margin: 5px;
+	background: white;
+	border: 3px solid black;
+	padding: 2px;
+
+}
+.upload_video_list_text input[type="text"] {
+	display: block;
+	background: white;
+	border-style: double;
+	border: 3px groove black;
+	margin: 3px auto 0px;
+}
+.upload_video_list_text input[type="submit"] {
+	padding: 4px;
+	border: 2px solid white;
+	background: black;
+	color: white;
+	border-radius: 10px;
+}
+
+.box iframe {
+	border: 1px solid white;
+	display: inline-block;
+	float: left;
+	height: 330px;
+	width: 650;
+	margin: 5px 1px 2px 10px;
+}
